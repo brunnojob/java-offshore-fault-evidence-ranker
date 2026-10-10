@@ -1,0 +1,22 @@
+$ bash -e -o pipefail -c javac Main.java && java Main --self-test && java Main < examples/input.txt
+tests passed
+bearing,0.68085106
+misalignment,0.30260047
+sensor,0.01654846
+
+$ java Main
+bearing,0.68085106
+misalignment,0.30260047
+sensor,0.01654846
+
+$ java Main
+missing input
+
+$ java Main
+invalid CSV row
+
+$ java Main --unsupported
+unsupported command arguments
+
+$ java Main
+input record too large

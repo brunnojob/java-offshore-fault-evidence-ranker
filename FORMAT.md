@@ -1,0 +1,1 @@
+CSV: fault,prior,P(high vibration),P(high temperature),P(sensor dropout). The CLI evidence is vibration=true, temperature=true, dropout=false. Evidence is assumed conditionally independent; likelihoods are supplied assumptions, not trained probabilities.

@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "repository": "brunnojob/java-offshore-fault-evidence-ranker",
-  "source_commit": "55a8297759f2b2b75246ee75fed5621e023d67bf",
-  "generated_at": "2026-10-10T02:36:10.627018+00:00",
-  "run_url": "https://github.com/brunnojob/java-offshore-fault-evidence-ranker/actions/runs/38017558864",
+  "source_commit": "da12ef6e68f9bf7aca0717ee4b5762972e228979",
+  "generated_at": "2026-10-10T02:44:24.193300+00:00",
+  "run_url": "https://github.com/brunnojob/java-offshore-fault-evidence-ranker/actions/runs/38018053018",
   "inputs_sha256": {
     ".proof/scenarios.json": "01a169a30d4af2e3f158ca16fb73cd6efd2634f5019149572e3c5e2e8cd12923",
     "examples/input.txt": "fe05344d100ba7588c3ac3fcc5b00113ab26b9ba1fe95a26ea2b7ee261893efa"
@@ -23,7 +23,7 @@
       "exit": 0,
       "expected_exit": 0,
       "passed": true,
-      "seconds": 2.158,
+      "seconds": 1.208,
       "output": "tests passed\nbearing,0.68085106\nmisalignment,0.30260047\nsensor,0.01654846\n",
       "output_sha256": "cd0f86a041a57dffadb52a828f94ef54e11c7a96d2a0695613620f65f0fb6174"
     },
@@ -65,7 +65,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.101,
+      "seconds": 0.051,
       "output": "invalid CSV row\n",
       "output_sha256": "902887621d4e2b50e9a1d45937529644e6685110db02e63076a49a6f646fbe0c"
     },

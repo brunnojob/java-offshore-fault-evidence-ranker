@@ -1,5 +1,7 @@
 # java-offshore-fault-evidence-ranker
 
+[View execution evidence](https://brunnojob.github.io/devstart-lab/proofs/java-offshore-fault-evidence-ranker/)
+
 Rank competing equipment faults with Bayesian evidence and log-space normalization.
 
 ```sh
